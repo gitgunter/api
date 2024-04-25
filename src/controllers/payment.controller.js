@@ -40,8 +40,7 @@ const createOrder = async (req, res) => {
     },
   });
   
-  // const orderURL = orderData.data.data.attributes.url;
-  const orderURL = orderData.data;
+  const orderURL = orderData.data.data.attributes.url;
   return res.status(200).json(orderURL);
 };
 
