@@ -33,7 +33,7 @@ const createOrder = async (req, res) => {
         variant: {
           data: {
             type: 'variants',
-            id: '331869',
+            id: userData.variant_id,
           },
         },
       },
